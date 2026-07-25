@@ -77,7 +77,7 @@ export default function App() {
             <div className="hero-buttons">
 
               <a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn primary"
@@ -481,7 +481,7 @@ export default function App() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn primary"
