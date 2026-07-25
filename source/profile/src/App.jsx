@@ -100,10 +100,10 @@ export default function App() {
 
 
             <img
-                src="/profile.jpeg"
-                alt="Pooja Krishnan"
-                className="profile-image"
-            />
+  src={`${import.meta.env.BASE_URL}profile.jpeg`}
+  alt="Pooja Krishnan"
+  className="profile-image"
+/>
 
             
 
